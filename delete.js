@@ -12,8 +12,9 @@ process.on("uncaughtException", (err, data) => {
 mongoClient.connect(mongoUrl,  { useUnifiedTopology: true },(err, res) => {
     if(err){console.log("database connection error"); return}
     db = res.db("nodejs-mongo-crud");
-    let user = {"firstName": "B", "surname":"BB"};
-    db.collection("users").insertOne(user, (err, res) => {
-        if(err){console.log("error cannot insert user"); return}
+    const deleteThis = {"firstName":"B"};
+    db.collection('users').deleteOne( deleteThis, (err, res) => {
+        if(err){console.log("error cannot delete user"); return}
+        console.log(res)
     });
 });
