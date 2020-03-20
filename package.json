@@ -1,0 +1,27 @@
+{
+  "name": "crud",
+  "version": "1.0.0",
+  "description": "Project for KEA",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@gitlab.com/ph00lt0/nodejs-mongo-crud.git"
+  },
+  "author": "ph00lt0",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://gitlab.com/ph00lt0/nodejs-mongo-crud/issues"
+  },
+  "homepage": "https://gitlab.com/ph00lt0/nodejs-mongo-crud#readme",
+  "dependencies": {
+    "detect-file-type": "^0.2.8",
+    "express": "^4.17.1",
+    "formidable": "^1.2.2",
+    "mongodb": "^3.5.5",
+    "uuid": "^7.0.2"
+  }
+}
