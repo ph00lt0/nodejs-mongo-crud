@@ -19,7 +19,7 @@
   "homepage": "https://gitlab.com/ph00lt0/nodejs-mongo-crud#readme",
   "dependencies": {
     "detect-file-type": "^0.2.8",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "formidable": "^1.2.2",
     "mongodb": "^3.5.5",
     "uuid": "^7.0.2"
